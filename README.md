@@ -6,9 +6,9 @@ ML-сервис для первичного скрининга сердечны�
 
 **Результат:** Recall 0.86 для класса «болен» при пороге 0.40, AUC 0.88 (CV).
 
-![Streamlit UI](screenshots\screenshot1.png)
+![Streamlit UI]( heart-disease-prediction\screenshots\screenshot1.png)
 
-![Streamlit UI](screenshots\screenshot2.png)
+![Streamlit UI]( heart-disease-prediction\screenshots\screenshot2.png)
 ---
 
 ## 1. Описание задачи
