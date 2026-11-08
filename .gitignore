@@ -1,34 +1,11 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-.venv/
-venv/
-env/
-*.egg-info/
+# CatBoost логи
+catboost_info/
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
+# HTML экспорты notebooks
+*.html
 
-# Данные (слишком большие для GitHub)
-data/*.csv
-models/*.cbm
+data/archive.zip
+data/olist_customers_dataset.csv.zip
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Docker
-.dockerignore
-
-# Logs
-*.log
+# Docker (строчные буквы)
+dockerfile
