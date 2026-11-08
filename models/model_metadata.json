@@ -1,0 +1,40 @@
+{
+  "model_name": "heart_disease_catboost",
+  "model_version": "1.0",
+  "threshold": 0.4,
+  "class_labels": {
+    "0": "\u0437\u0434\u043e\u0440\u043e\u0432",
+    "1": "\u0431\u043e\u043b\u0435\u0437\u043d\u044c \u0441\u0435\u0440\u0434\u0446\u0430"
+  },
+  "cat_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "chol_log",
+    "hr_reserve_ratio",
+    "chol_per_age",
+    "oldpeak_is_zero"
+  ],
+  "cv_auc": 0.881,
+  "test_auc": 0.942
+}
